@@ -26,3 +26,17 @@ Imported the needed python modules. Using  `pd.read_csv()` read the csv file dat
 ### (2) Data analysis <br>
 Used `dataset.describe()` , `dataset.shape()`,`dataset.head()`,`dataset.tail()`
 and `dataset.info` to get an idea of the data . 
+### (3) Data visualisation <br>
+Using matplotlib and seaborn plotted a histogram graph of all columns to their count.
+Using seaborn plotted a pie chart to check the ratio between males and females in the given dataset.
+### (4) Making the model
+Split the model into training and testing data (80:20) and trained it used logistic regression and fit the data in the dataframe into the model.
+### Accuracy of the current model : 0.8048780487804879
+
+## Using streamlit to deploy a website  
+The websaite takes attributes as inputs and returns whether the patient has a heart disease or not 80% accurately. 
+ #### testing data : <br>
+![image](https://github.com/0x-d15c0/Heart_disease_prediction/assets/117750351/19b8430c-f45c-41c7-83ca-7ca7cf028c01)
+
+#### website : <br>
+![image](https://github.com/0x-d15c0/Heart_disease_prediction/assets/117750351/4451a665-799b-4e8d-9735-8fb38f903801)
