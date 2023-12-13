@@ -25,7 +25,7 @@ The goal is to predict the target column using the other 13 columns.
 Imported the needed python modules. Using  `pd.read_csv()` read the csv file data into a dataframe named dataset . 
 ### (2) Data analysis <br>
 Used `dataset.describe()` , `dataset.shape()`,`dataset.head()`,`dataset.tail()`
-and `dataset.info` to get an idea of the data . 
+and `dataset.info` to get an idea of the data . Didnt have much data preprocessing to perform since there were no null values and the target value is binary .
 ### (3) Data visualisation <br>
 Using matplotlib and seaborn plotted a histogram graph of all columns to their count.
 Using seaborn plotted a pie chart to check the ratio between males and females in the given dataset.
